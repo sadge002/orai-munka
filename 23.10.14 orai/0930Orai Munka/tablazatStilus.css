@@ -1,0 +1,32 @@
+table, td{
+    /*border keretezés*/
+    border: black 1px solid;
+    /*cella elemek közötti távolságot vonja össze keretezésnél*/
+    border-collapse: collapse;
+}
+
+body{
+    /*background-color: darkgrey;*/
+    /*background-color: rgb(211,211,211);*/
+    background-color: #5A5A5A;
+    background-color: rgba(211, 211, 211,0.5);
+    background-color: hsl(160, 0, 199);
+    background-color: hsla(160, 0, 199,0);
+
+}
+
+#piros{
+    background-color: red;
+}
+
+#sarga{
+    background-color: yellow;
+}
+
+.zold{
+    background-color: green;
+}
+
+.kek{
+    background-color: blue;
+}

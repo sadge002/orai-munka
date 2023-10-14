@@ -1,0 +1,108 @@
+body{
+    background-color: green;
+}
+
+p{
+    color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+img {
+    height: 100px; /*masasság*/
+    width: auto; /*szélesség*/
+    float: left; /*úsztatás*/
+    }
+table, td{
+        clear: both;
+        border: 1px black solid;
+        border-collapse: collapse; 
+        background-color: white;   
+}
+#kepes{
+    background-image: url('vegyes feladatok/smiley2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: scroll;*/
+    background-size: contain;
+    /*background-size: cover;*/
+
+}
+ul li{
+    /*list-style-type: circle;*/
+    list-style-image: url('vegyes feladatok/smiley2.png');
+    list-style-position: inside;
+}
+
+ol li{
+    list-style-type: none;
+}
+div a{
+    text-decoration: none;
+}
+
+div p{
+    text-indent: 50px;
+    text-align: justify;
+}
+
+div {
+    border: gray 1px solid;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div h1{
+    color: black;
+    text-align: left;
+}
+
+#nagy{
+    text-transform: uppercase;
+}
+
+/*div p{
+    text-transform: uppercase;
+}*/
+
+/*div p{
+    text-transform: capitalize;
+}*/
+
+/*div p{
+    text-shadow: 2px 2px #c0c0c0;
+}*/
+   
+.cimsor2{ 
+    text-decoration: underline;
+}
+
+.bekezdes{
+    font-weight: bold;
+}
+
+h4{
+    font-style: italic;
+}
+
+#paris{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#kep{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    border: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

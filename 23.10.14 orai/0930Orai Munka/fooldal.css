@@ -1,0 +1,29 @@
+.hatter{
+    background-color: lightgreen;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+#masodik{
+    margin: 10px;
+    border-top: black dotted 1px;
+    border-bottom: dashed blue 1px;
+    border-right: yellow solid 1px;
+    border-left: darkgreen double 1px;
+}
+
+#harmadik{
+    border: red dashed 3px;
+    padding: 15px;
+}
+
+#negyedik{
+    background-image: url('kep2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    /*background-size: cover;*/
+
+}

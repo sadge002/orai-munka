@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Táblázatbeli elemek összevonása</title>
+    <link rel="stylesheet" href="tablazatStilus.css">
+</head>
+<body>
+    <!-- table>tr*3>td*3 létrehozó gyors parancs EMMEt-->
+    <table>
+        <tr>
+            <td colspan="2" class="kek">1 2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td id="piros">4</td>
+            <td>5</td>
+            <td rowspan="2" class="zold">6 9</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td id="sarga">8</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>Gyakorlás</caption>
+        <tr>
+            <td>1</td>
+            <td colspan="2" class="kek">2 3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td rowspan="3" class="zold">5 8 11</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>12</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
